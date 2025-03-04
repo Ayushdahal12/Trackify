@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+    <title>'Trackify - Web Player: Music for everyone'</title>
+    <style>
+
+    </style>
+</head>
+
+<body oncontextmenu="return false;">
+
+    <div class="container flex bg-black ">
+
+        <div class="left">
+            <div class="close">
+                <img class="invert" src="close.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"> <img width="34px" class="invert" src="logo.svg" alt="">
+                    <h3>Trackify</h3>
+                </div>
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library rounded bg-grey m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg" alt="">
+                    <h2>
+                        your library
+                    </h2>
+                </div>
+                <div class="songlist">
+                    <ul>
+
+                    </ul>
+                </div>
+
+
+                <div class="footer">
+                    <div><a href="https://www.facebook.com/ayush.jhapali.9"><span>Legal</span></a></div>
+                    <div><a href=""><span>Privacy
+                                Center</span></a>
+                    </div>
+                    <div><a href=""><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href=""><span>Cookies</span></a></div>
+                    <div><a href=""><span>About Ads</span></a>
+                    </div>
+                    <div><a href=""><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right rounded bg-grey ">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgercontainer">
+                        <img class="invert hamburger" src="hamburger.svg" alt="">
+
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="buttons"> 
+                    <a href="sign.html" target="_blank"><button class="signupbtn">Sign up</button> 
+                    </a>
+                    <a href="sign.html"target="_blank"><button class="loginbtn">Log in</button></a>       <!-- extra -->
+                    
+                </div>
+            </div>
+            <div class="spotifyPlaylist">
+                <h1>Trackify  Playlists</h1>
+                <div class="cardContainer">
+
+                    <!-- first card -->
+
+                    <div data-folder="ncs" class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 200 200">
+                                <!-- Green circle background -->
+                                <circle cx="100" cy="100" r="90" fill="green" />
+
+                                <!-- Black play button triangle centered with proper padding -->
+                                <polygon points="80,50 80,150 140,100" fill="black" />
+                            </svg>
+                        </div>
+                        <img src="https://seed-mix-image.spotifycdn.com/v6/img/desc/Nepali%20Pop/en/default" alt="">
+                        <h2>Famous Nepali collection</h2>
+                        <p>Trending songs.. !</p>
+                    </div>
+                    <!-- sec card -->
+
+                    <div data-folder="ncs1" class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 200 200">
+                                <!-- Green circle background -->
+                                <circle cx="100" cy="100" r="90" fill="green" />
+
+                                <!-- Black play button triangle centered with proper padding -->
+                                <polygon points="80,50 80,150 140,100" fill="black" />
+                            </svg>
+                        </div>
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/1deQzOQwArAsUgm2WdjtyI/en" alt="">
+                        <h2>Sajjan Raj Vaidya</h2>
+                        <p>Babal geet.... !!</p>
+                    </div>
+                    
+                    
+                  
+                    <!-- third card -->
+
+                    <div data-folder="eng" class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 200 200">
+                                <!-- Green circle background -->
+                                <circle cx="100" cy="100" r="90" fill="green" />
+
+                                <!-- Black play button triangle centered with proper padding -->
+                                <polygon points="80,50 80,150 140,100" fill="black" />
+                            </svg>
+                        </div>
+                        <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg" alt="">
+                        <h2>Top songs - Global!</h2>
+                        <p>Naya naya geet update hunxa weekly !</p>
+                    </div>
+                    <!-- fourth card -->
+
+                    <div data-folder="Balen" class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 200 200">
+                                <!-- Green circle background -->
+                                <circle cx="100" cy="100" r="90" fill="green" />
+
+                                <!-- Black play button triangle centered with proper padding -->
+                                <polygon points="80,50 80,150 140,100" fill="black" />
+                            </svg>
+                        </div>
+                        <img src="https://seed-mix-image.spotifycdn.com/v6/img/artist/10PevUUxHvpHMmnSABHeIt/en/default"  alt="">
+                        <h2>Balen</h2>
+                        <p>Balen songs collection !</p>
+                    </div>
+                    <!-- fifth card -->
+
+                    <div data-folder="hin" class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 200 200">
+                                <!-- Green circle background -->
+                                <circle cx="100" cy="100" r="90" fill="green" />
+
+                                <!-- Black play button triangle centered with proper padding -->
+                                <polygon points="80,50 80,150 140,100" fill="black" />
+                            </svg>
+                        </div>
+                        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da843d2bcee8d700b981c953ba70"    alt="">
+                        <h2>Indian music</h2>
+                        <p>A Roller coaster ride of emotions !</p>
+                    </div>
+
+
+                    
+
+
+                     
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+                        <div class="songinfo"></div>
+                        <div class="songtime"></div>
+                    </div>
+                    <div class="songinfo">
+
+                    </div>
+                    <div class="songsbuttons">
+                        <img id="previous" src="previous.svg" alt="">
+                        <img id="play" src="play.svg" alt="">
+                        <img id="next" src="nextsong.svg" alt="">
+                    </div>
+
+
+                    <div class="songtime">
+                    </div>
+                    <div class="volume">
+                        <img width="20px" class="invert(1)" src="volume.svg" alt="">
+                        <div class="range">
+                            <input type="range" name="volume">
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+       
+    <script src="script.js"></script>
+
+</body>
+
+</html>
